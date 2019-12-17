@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Display from '../display/Display';
 import Controls from '../controls/Controls';
 
