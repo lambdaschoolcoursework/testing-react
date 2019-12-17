@@ -25,7 +25,7 @@ test('gate cannot be closed or opened if it is locked', () => {
     fireEvent.click(closeGateButton);
     fireEvent.click(lockGateButton);
 
-    // checking if open gate button is disabled now that buttons are clicked
+    // checking to see if open gate button is disabled now that buttons are clicked
     const openGateButton = getByText(/open gate/i);
     expect(openGateButton).toBeDisabled();
 });
